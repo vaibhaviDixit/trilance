@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^addCourse/(.*)$ addCourse.php?id=$1 [QSA]
+RewriteRule ^addTesttimonial/(.*)$ addTesttimonial.php?id=$1 [QSA]
+
+RewriteRule ^addPlaced/(.*)$ addPlaced.php?id=$1 [QSA]
+RewriteRule ^addBatch/(.*)$ addBatch.php?id=$1 [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]

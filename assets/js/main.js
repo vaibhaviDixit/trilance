@@ -40,6 +40,10 @@
     el.addEventListener('scroll', listener)
   }
 
+
+
+// 
+
   /**
    * Navbar links active state on scroll
    */
@@ -54,11 +58,31 @@
         navbarlink.classList.add('active')
       } else {
         navbarlink.classList.remove('active')
+        anchors[0].classList.remove('active');
+
       }
     })
   }
+
+
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
+
+
+
+  const currentLocation=location.href;
+  const anchors=document.querySelectorAll('#navbar .link');
+
+  for(let i=0;i<anchors.length;i++){
+
+    if (anchors[i].href==currentLocation){
+      anchors[i].classList.add('active');
+    }else{
+      anchors[i].classList.remove('active');
+    }
+  }
+
+
 
   /**
    * Scrolls to an element with header offset
@@ -258,37 +282,33 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-// lang toggle
 
-function submitLang(lang){
-  
-  if(lang=="en"){
-       window.location.href="index.html";
-  }
-  else if(lang=="mr"){
-      window.location.href="index2.html";
-  }
-  else{
-      window.location.href="index.html";
-  }
 
-}
-// open chat
-function openChat(){
-  
-  $(".chatBox").show(500);
+function toggleEye(id){
+    const selector="#"+id;
+    const password = document.querySelector(selector);
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye / eye slash icon
+    $(".fa-eye").toggleClass('fa-eye-slash');
 }
 
 
-function closeChat(){
-  
-  $(".chatBox").hide(500);
-}
-
- $(".countnum").counterUp({
-        delay: 10,
-        time: 1000
-    });
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    autoplay:true,
+    margin:5,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        }
+    }
+});
 
 
 
