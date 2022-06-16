@@ -8,15 +8,15 @@
 
 if(isset($_POST['courseId'])){
   // print_r($_POST);
-  $batchId=$_POST['courseId'];
-  $first_name=$_POST['first_name'];
-  $last_name=$_POST['last_name'];
-  $email=$_POST['email'];
-  $phone=$_POST['phone'];
-  $address =$_POST['address'];
-  $dob=$_POST['dob'];
-  $gender= $_POST['gender'];
-  $qualification=$_POST['qualification'];
+  $batchId=getSafeVal($_POST['courseId']);
+  $first_name=getSafeVal($_POST['first_name']);
+  $last_name=getSafeVal($_POST['last_name']);
+  $email=getSafeVal($_POST['email']);
+  $phone=getSafeVal($_POST['phone']);
+  $address =getSafeVal($_POST['address']);
+  $dob=getSafeVal($_POST['dob']);
+  $gender= getSafeVal($_POST['gender']);
+  $qualification=getSafeVal($_POST['qualification']);
 
   $exe=mysqli_query($con,"INSERT INTO `enrolledcourse`(`courseId`, `first_name`, `last_name`, `email`, `phone`, `address`, `dob`, `gender`, `qualification`) VALUES ('$batchId','$first_name','$last_name','$email','$phone','$address','$dob','$gender','$qualification' )");
 

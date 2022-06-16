@@ -2,10 +2,10 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3309
--- Generation Time: May 30, 2022 at 06:22 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.11
+-- Host: 127.0.0.1:3306
+-- Generation Time: Jun 04, 2022 at 12:12 PM
+-- Server version: 10.5.15-MariaDB-cll-lve
+-- PHP Version: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `trilance`
+-- Database: `u433195980_trilance`
 --
 
 -- --------------------------------------------------------
@@ -96,11 +96,11 @@ CREATE TABLE `course` (
 
 INSERT INTO `course` (`id`, `name`, `pic`, `description`) VALUES
 (1, 'Software Testing', '276987460_softtesting.png', '  A career in software testing has high prospects for success.This course explores testing techniques to achieve the assurance in all stages of software testing, focusing on the creation and maintenance of test cases, procedures, and scenarios. The course will gets you experties in the testing management roles and responsibilities.  '),
-(2, 'SQL/PLSQL', '', '  '),
-(3, 'UNIX / Linux', '', '  '),
-(4, 'Cloud Testing (AWS/Azure)', '', '  '),
-(5, 'Python', '', '  '),
-(6, 'Data Science', '', '  ');
+(2, 'SQL/PLSQL', '999631714_pl-sql-database.jpg', '    '),
+(3, 'UNIX / Linux', '556444243_unix-linux.png', '    '),
+(4, 'Cloud Testing (AWS/Azure)', '396222231_aws-azure-gcp.png', '    '),
+(5, 'Python', '782443698_pythonlogo.png', '    '),
+(6, 'Data Science', '960955951_data-science-logo-icon.png', '    ');
 
 -- --------------------------------------------------------
 

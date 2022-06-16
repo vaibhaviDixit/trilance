@@ -188,7 +188,8 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text);
 }
 #header .logo img {
-  max-height: 100px;
+  max-height: 60px;
+  margin-right:10px;
 }
 
 .scrolled-offset {
@@ -647,11 +648,12 @@ margin: 1rem;
 }
 .courses .icon-box .icon {
   margin: 0 auto;
-  width: 80px;
-  height: 80px;
   transition: all 0.3s ease-out 0s;
-  margin-bottom: 20px;
   transform-style: preserve-3d;
+}
+.courses .icon-box .icon img{
+  max-height: 100px;
+  height: 70px;
 }
 .courses .icon-box .icon i {
   color: #fff;
@@ -659,11 +661,12 @@ margin: 1rem;
 }
 
 .courses .icon-box h4 {
-  
-  cursor: pointer;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
+    cursor: pointer;
+    font-weight: 700;
+    padding-top: 1rem;
+    font-size: 22px;
+    line-height: 24px;
+    height: 75px;
 }
 .courses .icon-box h4 a {
   color: #191919;
@@ -677,9 +680,7 @@ margin: 1rem;
   background: var(--primary);
   border-color: var(--primary);
 }
-.courses .icon-box:hover .icon {
-  background: #fff;
-}
+
 .courses .icon-box:hover .icon i {
   color: var(--primary);
 }

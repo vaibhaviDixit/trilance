@@ -37,7 +37,7 @@
 
         <div class="row align-items-center">
           <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-left">
-            <img src="assets/img/programmer.jpg" class="img-fluid" alt="" style="border-radius: 5%;">
+            <img src="<?php echo SITE_PATH; ?>assets/img/programmer.jpg" class="img-fluid" alt="" style="border-radius: 5%;">
           </div>
 
           <div class="col-lg-6 order-2 order-lg-2 mt-4" data-aos="fade-right">
@@ -216,12 +216,12 @@
       <div class="container">
 
 
-        <div class="row" data-aos="fade-up">
+        <div class="row align-items-center" data-aos="fade-up">
           <div class="col-lg-6">
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>Hadapsar -Kharadi Bypass Road,<br> Kharadi, Pune, Pin-411014</p>
+              <p>Lane No 1, Sr.No 41/1A/1 ,<br/> Near Ganesh-Durga Temple ,<br/> Choudhary Vasti,Kharadi <br/>Pune.411014</p>
             </div>
           </div>
 
@@ -229,7 +229,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>trilanceitsolutions@gmail.com</p>
+              <p>hr@trilanceitsolutions.in</p>
             </div>
           </div>
 
@@ -237,7 +237,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+91 9607656761</p>
+              <p>+91 8600007988</p>
             </div>
           </div>
 

@@ -1,7 +1,7 @@
 <?php
 
 // define constants here
-define('SITE_NAME','Trilance');
+define('SITE_NAME','Trilance IT Solutions');
 define('SITE_PATH','http://localhost/Trilance/');
 // define('SITE_PATH','https://trilance.000webhostapp.com/');
 

@@ -8,11 +8,11 @@
 
 if($_POST) {
 
-  $name = $_POST['name'];
-  $email = $_POST["email"];
-  $phone = $_POST["phone"];
-  $message = $_POST["message"];
-  $course=$_POST["course"];
+  $name = getSafeVal($_POST['name']);
+  $email = getSafeVal($_POST["email"]);
+  $phone = getSafeVal($_POST["phone"]);
+  $message = getSafeVal($_POST["message"]);
+  $course=getSafeVal($_POST["course"]);
 
  $exe=mysqli_query($con,"INSERT INTO `contact`(`name`, `email`, `phone`, `message`, `course`) VALUES ('$name','$email','$phone','$message','$course')");
 

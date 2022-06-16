@@ -8,15 +8,15 @@
 
 if(isset($_POST['batchId'])){
   // print_r($_POST);
-  $batchId=$_POST['batchId'];
-  $first_name=$_POST['first_name'];
-  $last_name=$_POST['last_name'];
-  $email=$_POST['email'];
-  $phone=$_POST['phone'];
-  $address =$_POST['address'];
-  $dob=$_POST['dob'];
-  $gender= $_POST['gender'];
-  $qualification=$_POST['qualification'];
+  $batchId=getSafeVal($_POST['batchId']);
+  $first_name=getSafeVal($_POST['first_name']);
+  $last_name=getSafeVal($_POST['last_name']);
+  $email=getSafeVal($_POST['email']);
+  $phone=getSafeVal($_POST['phone']);
+  $address =getSafeVal($_POST['address']);
+  $dob=getSafeVal($_POST['dob']);
+  $gender= getSafeVal($_POST['gender']);
+  $qualification=getSafeVal($_POST['qualification']);
 
   $exe=mysqli_query($con,"INSERT INTO `enrolled`(`batchId`, `first_name`, `last_name`, `email`, `phone`, `address`, `dob`, `gender`, `qualification`) VALUES ('$batchId','$first_name','$last_name','$email','$phone','$address','$dob','$gender','$qualification' )");
 

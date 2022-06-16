@@ -20,47 +20,47 @@
 
 
   <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/img/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="assets/img/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-<link rel="manifest" href="assets/img/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="<?php echo SITE_PATH;?>assets/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo SITE_PATH;?>assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="<?php echo SITE_PATH;?>assets/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo SITE_PATH;?>assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="<?php echo SITE_PATH;?>assets/img/favicon/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="assets/img/ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content="<?php echo SITE_PATH;?>assets/img/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/css/form.css" rel="stylesheet" media="all">
-   <link href="assets/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+  <link href="<?php echo SITE_PATH;?>assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?php echo SITE_PATH;?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo SITE_PATH;?>assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?php echo SITE_PATH;?>assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?php echo SITE_PATH;?>assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?php echo SITE_PATH;?>assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?php echo SITE_PATH;?>assets/css/form.css" rel="stylesheet" media="all">
+   <link href="<?php echo SITE_PATH;?>assets/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
-    <link href="assets/vendor/owl/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/owl/owl.theme.default.min.css" rel="stylesheet">
+    <link href="<?php echo SITE_PATH;?>assets/vendor/owl/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo SITE_PATH;?>assets/vendor/owl/owl.theme.default.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="<?php echo SITE_PATH;?>assets/css/style.css" rel="stylesheet">
 
   <!-- js -->
-    <script src="assets/vendor/jquery.min.js"></script>
-    <script src="assets/vendor/sweetalert.min.js"></script>
-    <script src="assets/vendor/owl/owl.carousel.min.js"></script>
+    <script src="<?php echo SITE_PATH;?>assets/vendor/jquery.min.js"></script>
+    <script src="<?php echo SITE_PATH;?>assets/vendor/sweetalert.min.js"></script>
+    <script src="<?php echo SITE_PATH;?>assets/vendor/owl/owl.carousel.min.js"></script>
 
 </head>
 
@@ -83,7 +83,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo"><a href="index.php"><img src="assets/img/apple-icon-180x180.png"><span class="spacing" style="font-size: medium;">Trilance</span></a></div>
+      <div class="logo"><a href="<?php echo SITE_PATH;?>"><img src="<?php echo SITE_PATH;?>assets/img/favicon/apple-icon-180x180.png"><span class="spacing" style="font-size: medium;">Trilance</span></a></div>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
